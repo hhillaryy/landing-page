@@ -27,15 +27,20 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  width: 80%;
+  width: 90%;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 2px gray;
 }
 
 .headerText h2, hr, br {
   margin: 5px;
   font-size: 50px;
+  font-weight: normal;
 }
 
 .headerText h1 {
-  font-size: 70px;
+  font-size: 100px;
   margin: 5px;
+  font-weight: normal;
 }
