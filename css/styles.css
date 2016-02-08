@@ -57,6 +57,20 @@ html {
   margin-right: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 2px 2px gray;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .congrats {
   color: white;
   position: absolute;
