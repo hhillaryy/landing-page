@@ -1,0 +1,41 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.header {
+  display: block;
+  height: 600px;
+  width: 100%;
+  background-image: url("../img/headerimg.jpg");
+  background-size: cover;
+  position: relative;
+  align-items: center;
+}
+
+.headerText {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  width: 80%;
+}
+
+.headerText h2, hr, br {
+  margin: 5px;
+  font-size: 50px;
+}
+
+.headerText h1 {
+  font-size: 70px;
+  margin: 5px;
+}
