@@ -1,3 +1,8 @@
+html {
+  width: 100%;
+  border: none;
+}
+
 *,
 *::before
 *::after {
@@ -6,15 +11,89 @@
           box-sizing: border-box;
 }
 
+#thankful {
+  font-size: 40px;
+  color: white;
+  float: left;
+  text-shadow: 0 2px 2px gray;
+  height: 200px;
+  position: relative;
+  width: 600px;
+}
 
-.header {
+#thankful p {
+  position: absolute;
+  left: 13%;
+  top: -13%;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 2px gray;
+  font-weight: lighter;
+
+}
+
+#thankful img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#thankful img#thankful-logo {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+
+#navigation {
+  font-size: 20px;
+  color: white;
+  float: right;
+  /*position: absolute;*/
+  display: inline-block;
+  margin-left: 10px;
+  text-shadow: 0 2px 2px gray;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.congrats {
+  color: white;
+  position: absolute;
+  bottom: 0;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 2px gray;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  display: inline-block;
+  margin: 0;
   height: 600px;
   width: 100%;
   background-image: url("../img/headerimg.jpg");
   background-size: cover;
   position: relative;
   align-items: center;
+}
+
+.button {
+  position: absolute;
+  border-radius: 10%;
+  background-color: salmon;
+  color: white;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 0;
+  top: 80%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .headerText {
@@ -43,4 +122,10 @@
   font-size: 100px;
   margin: 5px;
   font-weight: normal;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin: left;
 }
